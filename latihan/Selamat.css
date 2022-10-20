@@ -1,0 +1,31 @@
+
+.nav{
+    margin:auto;
+    text-align: center;
+    width:100%;
+    font-family: arial;
+}
+
+.nav ul{
+    background: #37988e;
+    padding: 0 20px;
+    list-style: none;
+    position: relative;
+    display: inline-table ;
+    width: 100%;
+}
+
+.nav ul li:hover{
+    background: yellow;
+}
+
+.nav ul il:hover{
+    background: blue;
+}
+
+.nav ul li a{
+    display: block;
+    padding: 25xp;
+    color: black;
+    text-decoration: arial;
+}

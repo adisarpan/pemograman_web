@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    padding: 30px;
+    font-family: Arial;
+}
+
+.header{
+    padding: 25px;
+    text-align: center;
+    background: white;
+}
+
+.header h1{
+    font-size: 35px;
+}
+
+.navigasi{
+    background-color: antiquewhite;
+    overflow: hidden;
+    text-align: center;
+}
+
+.navigasi a{
+    color: black;
+    padding: 14px; 
+    float: left;
+    text-decoration: none; /*menghilangkan garis bawah link*/  
+}
+.navigasi a:hover{
+    background-color: aqua;
+    color: black;
+}
+
+.left-column{
+    float: left;
+    width: 75%;
+}
+.right-column{
+    float: left;
+    width: 25%;
+    background-color: white;
+    padding-left: 20xp;
+}
+.card{
+    background-color: white;
+    padding: 20xp;
+    margin-top: 20xp;
+}
+.rowconten :after{
+    content:"" ;
+    display: table;
+    clear: bouth;
+
+}
+.footer{
+    padding: 20xp;
+    text-align: center ;
+    background-color: greenyellow;
+    margin-top: 20cp;
+}
